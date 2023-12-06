@@ -1,0 +1,73 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://0734e4af-557b-46d5-8b28-ffab5a54fb2c",
+	"@type": "sc:Manifest",
+	"label": "this is a test to reassure my TNAH studetns",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "[Click to edit description]",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "Ed Gray & TNAH Promo 2024",
+	"sequences": [
+		{
+			"@id": "http://476b26e4-6a97-4f57-b931-d04dea212387",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8406884c/canvas/f1",
+					"label": "NP",
+					"height": 5840,
+					"width": 3832,
+					"images": [
+						{
+							"motivation": "sc:painting",
+							"on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8406884c/canvas/f1",
+							"resource": {
+								"format": "image/jpeg",
+								"service": {
+									"profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+									"@context": "http://iiif.io/api/image/1/context.json",
+									"@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8406884c/f1"
+								},
+								"height": 5840,
+								"width": 3832,
+								"@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8406884c/f1/full/full/0/native.jpg",
+								"@type": "dctypes:Image"
+							},
+							"@type": "oa:Annotation"
+						}
+					],
+					"thumbnail": {
+						"@id": "https://gallica.bnf.fr/ark:/12148/btv1b8406884c/f1.thumbnail"
+					},
+					"@type": "sc:Canvas",
+					"related": {
+						"@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8406884c/manifest.json",
+						"label": "BnF, département Estampes et photographie, RESERVE FOL-QB-201 (67)",
+						"format": ""
+					}
+				},
+				{
+					"@id": "http://f7809e1a-884b-42fb-b238-54725da7f7ec",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 0,
+					"width": 0,
+					"images": [],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}
